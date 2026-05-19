@@ -1,0 +1,28 @@
+# Python
+__pycache__
+*.pyc
+*.pyo
+.venv
+venv
+
+# Git
+.git
+.gitignore
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose*.yml
+
+# Environment
+.env
+.env.local
+
+# Data (mounted as volume)
+volumes/
