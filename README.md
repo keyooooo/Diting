@@ -93,6 +93,11 @@ MILVUS_PORT=19530
 
 # JWT
 JWT_SECRET_KEY=your-random-secret-at-least-32-chars
+ADMIN_INVITE_CODE=your_invite_code
+
+# EMBEDDING
+EMBEDDING_MODEL=BAAI/bge-m3
+EMBEDDING_DEVICE=cpu
 
 # 可选
 # RERANK_MODEL=your-rerank-model
