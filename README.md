@@ -1,5 +1,7 @@
 # Diting — Agentic RAG 智能问答系统
 
+> 本项目受 [SuperMew](https://github.com/icey1287/SuperMew) 启发，在其架构基础上进行了大量重构与功能扩展。
+
 基于 LangGraph 的 Agent 驱动问答后端，集成混合检索、自反思检索管道与流式对话，支持多知识库隔离与全链路实时可观测。
 
 ## 架构概览
@@ -218,6 +220,10 @@ Diting/
              ④ retrieve_expanded
                 多路检索 → 去重 → 统一重排 → 生成答案
 ```
+
+## 致谢
+
+本项目灵感与底层框架来自 [SuperMew](https://github.com/icey1287/SuperMew)，感谢原作者 [icey1287](https://github.com/icey1287) 的开源精神与卓越工作。
 
 ## License
 
